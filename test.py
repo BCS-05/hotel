@@ -15,6 +15,8 @@ import requests
 from requests.auth import HTTPBasicAuth
 import base64
 import datetime
+from datetime import datetime
+date = datetime.now().strftime('%Y-%m-%d')
 
 # Constants for styling with improved color scheme
 BG_COLOR = "#1a1a2e"  # Dark navy blue
